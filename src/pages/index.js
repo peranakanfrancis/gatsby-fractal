@@ -15,9 +15,7 @@ const IndexPage = () => (
   <Layout>
     <header id="header">
       <div className="content">
-        <h1>
-          {config.heading}
-        </h1>
+        <h1>{config.heading}</h1>
         <p>{config.subHeading}</p>
         <ul className="actions">
           <li>
